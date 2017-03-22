@@ -1,0 +1,14 @@
+{
+    "require": {
+        "hirak/prestissimo": "^0.3.5"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.1"
+    }
+}
