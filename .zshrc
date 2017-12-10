@@ -128,3 +128,6 @@ function php() {
 }
 
 
+function composer() {
+  run_with_docker "composer" "latest" "composer" $@
+}
